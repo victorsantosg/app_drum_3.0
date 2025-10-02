@@ -1,72 +1,62 @@
-🥁 app_drum_3.0
+# 🥁 app_drum_3.0
 
-O app_drum_3.0 é a evolução direta do app_drum_2.0, trazendo novas funcionalidades que expandem a experiência musical para além da bateria eletrônica. Nesta versão, o aplicativo ganhou recursos de gravação, loops independentes e integração com instrumentos externos, permitindo ao usuário criar arranjos mais completos e criativos.
+O **app_drum_3.0** é a evolução direta do **app_drum_2.0**, trazendo novas funcionalidades que expandem a experiência musical para além da bateria eletrônica. Nesta versão, o aplicativo ganhou recursos de **gravação, loops independentes e integração com instrumentos externos**, permitindo ao usuário criar arranjos mais completos e criativos.
 
-🚀 Evolução em relação ao app_drum_2.0
+---
 
-No app_drum_2.0 tínhamos:
+## 🚀 Evolução em relação ao app_drum_2.0
 
-Sequenciador de bateria com bumbo, caixa, hi-hat e outros timbres.
+No **app_drum_2.0** tínhamos:  
+- Sequenciador de bateria com **bumbo, caixa, hi-hat e outros timbres**.  
+- Controle de **BPM** com visualização e metrônomo.  
+- Presets salvos no **banco de dados (SQLite)** e também exportação em JSON.  
+- Importação de músicas para tocar junto e sobrepor grooves da drum machine.  
 
-Controle de BPM com visualização e metrônomo.
+---
 
-Presets salvos no banco de dados (SQLite) e também exportação em JSON.
+## 🎶 Novas funcionalidades do app_drum_3.0
 
-Importação de músicas para tocar junto e sobrepor grooves da drum machine.
+1. **Gravação de áudio externo (instrumentos)**  
+   - Possibilidade de conectar instrumentos (violão, guitarra, teclado, voz via microfone/interface).  
+   - Criação de **loops de áudio** diretamente no software.  
 
-🎶 Novas funcionalidades do app_drum_3.0
+2. **Múltiplas camadas de loops independentes**  
+   - Gravação de várias pistas (loop 1, loop 2, loop 3…) de forma independente.  
+   - Cada pista funciona como uma faixa sobreposta, permitindo **gravações em camadas**.  
 
-Gravação de áudio externo (instrumentos)
+3. **Sincronização de tempo automática**  
+   - O tempo do **primeiro loop gravado** define a duração padrão.  
+   - Todos os próximos loops seguem automaticamente esse tempo, garantindo sincronia.  
 
-Agora é possível conectar instrumentos (como violão, guitarra, teclado ou voz via microfone/interface externa).
+4. **Integração Drum Machine + Loops**  
+   - Loops gravados funcionam em conjunto com a **drum machine**.  
+   - É possível programar a bateria e gravar instrumentos por cima simultaneamente.  
 
-O app grava diretamente no software, criando um loop de áudio.
+5. **Interface mais fluida para gravação**  
+   - Botão de gravação muda de cor durante o processo.  
+   - Sem popups ou alertas que interrompam o fluxo criativo.  
 
-Múltiplas camadas de loops independentes
+---
 
-O usuário pode gravar várias pistas (loop 1, loop 2, loop 3…) de forma independente.
+## 🔜 Próximos desafios
 
-Cada pista funciona como uma faixa sobreposta, permitindo gravações em camadas.
+- Mixagem básica dentro do app (controle de volume, pan de cada pista).  
+- Exportação final em **.wav ou .mp3** unindo loops e drum machine.  
+- Reconhecimento automático de BPM do áudio importado.  
 
-Sincronização de tempo automática
+---
 
-O tempo do primeiro loop gravado define a duração padrão.
+## 🛠️ Tecnologias utilizadas
 
-Todos os próximos loops seguem automaticamente esse tempo, garantindo sincronia sem precisar redefinir.
+- **Python 3.12**  
+- **Tkinter** (Interface gráfica)  
+- **Pygame** (áudio e sequenciamento)  
+- **Sounddevice** (captura de áudio externo)  
+- **SQLite** (armazenamento de presets e grooves)  
 
-Integração Drum Machine + Loops
+---
 
-Os loops gravados funcionam em conjunto com a drum machine.
+## 📌 Conclusão
 
-O usuário pode programar a bateria e, ao mesmo tempo, gravar instrumentos por cima.
-
-Interface mais fluida para gravação
-
-O botão de gravação muda de cor e indica visualmente o processo.
-
-Sem popups ou alertas que atrapalhem o fluxo criativo.
-
-🔜 Próximos desafios
-
-Mixagem básica dentro do app (volume, pan de cada pista).
-
-Exportação final em .wav ou .mp3 unindo loops + drum machine.
-
-Reconhecimento automático de BPM do áudio importado.
-
-🛠️ Tecnologias utilizadas
-
-Python 3.12
-
-Tkinter (Interface gráfica)
-
-Pygame (áudio e sequenciamento)
-
-Sounddevice (captura de áudio externo)
-
-SQLite (armazenamento de presets e grooves)
-
-📌 Conclusão
-
-O app_drum_3.0 marca um salto importante no projeto: de uma drum machine básica, evoluímos para um mini estúdio de criação musical com loops em tempo real. Agora o usuário pode programar grooves, importar músicas, gravar instrumentos e sobrepor camadas, criando arranjos completos dentro do app.
-
+O **app_drum_3.0** marca um salto importante no projeto: de uma **drum machine básica**, evoluímos para um **mini estúdio de criação musical com loops em tempo real**.  
+Agora é possível **programar grooves, importar músicas, gravar instrumentos e sobrepor camadas**, criando arranjos completos dentro do app.
